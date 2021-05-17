@@ -7,45 +7,45 @@ const generateMarkdown = require("./utils/generateMarkdown")
 const questions = [
     {
         type: 'input',
-        name: 'GitHub',
+        name: 'username',
         message: 'What is your GitHub username?'
     },
     {
         type: 'input',
         name: 'email',
-        message: 'What is your GitHub username?'
+        message: 'What is your email address?'
     },
     {
         type: 'input',
         name: 'title',
-        message: 'What is your GitHub username?'
+        message: 'What is the title of your project?'
     },
     {
         type: 'input',
         name: 'description',
-        message: 'What is your GitHub username?'
+        message: 'What is the description of your project?'
     },
     {
         type: 'list',
-        name: 'name of license',
-        message: 'What is your GitHub username?',
-        choices: ['mit', 'apache 2.0', 'gpl 3.0', 'none']
+        name: 'license',
+        message: 'What license did you use?',
+        choices: ['MIT', 'Apache 2.0', 'GPL 3.0', 'none']
     },
     {
         type: 'input',
         name: 'installation',
-        message: 'What is your GitHub username?',
+        message: 'What are the steps required to install?',
         default: 'NPM i'
     },
     {
         type: 'input',
         name: 'usage',
-        message: 'What is your GitHub username?'
+        message: 'How do you use your application?'
     },
     {
         type: 'input',
         name: 'contributions',
-        message: 'What is your GitHub username?'
+        message: 'Who contributed to this project?'
     }
 ];
 
